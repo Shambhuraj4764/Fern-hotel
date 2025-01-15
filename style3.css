@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    padding: 10px;
+    color: white;
+}
+
+.search input{
+    height: 35px;
+    width: 225px;
+    border-radius: 50px;
+}
+
+/* main */
+#first img{
+    width: 100%;
+    background-image: cover;
+    height: 600px;
+}
+
+.msg p{
+    font-family: "Playfair Display", serif;
+    color: #212121;
+    font-size: 45px;
+    padding:50px 0px 0px 50px;
+}
+ 
+#c{
+    display: flex; 
+    width: 100%;
+}
+.pet{
+    width: 50%;
+    justify-self: center;
+}
+.pet img{
+    height: 420px;
+    width: 100%;
+    padding: 50px;
+}
+.pm{
+    width: 50%;
+    justify-self: center;
+}
+.pm p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: #545454;
+    padding: 100px 0px 100px 100px;
+    width: 100%;
+}
+
+#third{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.msg h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: green;
+    margin: 10px 0px;
+    font-family: "Playfair Display", serif;
+}
+
+.msg p{
+    width: 300px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    color: #545454;
+    padding-left: 20px;
+}
+
+.first1{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0.5px solid black;
+    height: 200px;
+    width: 70%;
+    align-items: center;
+}
+
+.icons img{
+    height: 50px;
+    display: flex;
+    width: 33.30%;
+}
+
+.icons{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 20px;   
+    justify-content: space-around;
+}
+
+.card1{
+    height: 410px;
+    width: 440px;
+}
+
+.card1 img{
+    width: 100%;
+}
+
+.card1 p{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: #334;
+    text-align: center;
+}
+
+.btn button{
+    background-color: #003d15;
+    color: yellow;
+    padding: 6px 15px;
+}
+
+.btn{
+    padding: 20px 0px 0px 90px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* fifth */
+.list h1{
+    font-family: "Playfair Display", serif;
+    color: #212121;
+    font-size: 35px;
+    padding: 20px;
+}
+ul{
+    padding: 10px 50px;
+}
+
+/* footer */
+
+.log{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    border: 0.2px orange solid ;
+    padding: 20px;
+}
+
+.log p{
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    line-height: 1.4em;
+    justify-self: center;
+    margin: 10px 0px;
+}
+
+.lo{
+    display: flex;
+    width: 100%;
+    justify-self: center;
+    /* justify-content: center; */
+}
+
+.lo img{
+    height: 100px;
+    width: 150px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 30px 0px;
+}
+
+li{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    color: #545454;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* responsive */
+@media only screen and (max-width:1023px){  
+    #c{
+        display: block; 
+    }
+    footer{
+        display: block;
+    }   
+    #third{
+        display: none;
+    } 
+}
+@media only screen and (max-width:767px){
+    #content{
+        display: none;
+    }   
+    .search input{
+        display: none;
+    }
+    .lo{
+        display: block;
+    }
+    .foot{
+        display: block;
+    }
+}

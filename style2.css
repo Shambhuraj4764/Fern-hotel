@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    padding: 10px;
+    color: white;
+}
+
+.search input{
+    height: 35px;
+    width: 225px;
+    border-radius: 50px;
+}
+
+/* main */
+#first{
+    display: flex;
+    padding-top: 100px;
+}
+
+.msg{
+    text-align: justify;
+    padding: 30px;
+}
+
+.img img{
+    height: 550px;
+    width: 900px;
+}
+
+.heading{
+    font-family: "Playfair Display", serif;
+    color: #003d15;
+    font-size: 30px;
+    justify-self: center;
+}
+
+.content{
+    font-family: "Playfair Display", serif;
+    color: #545454;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.s input{
+    text-align: left;
+    width: 100%;
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Playfair Display';
+    border: 0.5px solid #333;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50px;
+    margin: 30px 0px;
+}
+
+.btn button{
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+    text-align: justify;
+}
+
+/* second */
+.mess{
+    text-align: center;
+    margin: 20px;
+}
+.mess span{
+    font-weight: 500;
+    color: #003d15;
+    font-size: 35px !important;
+    padding: 10px;
+    text-align: center;
+}
+
+.mess p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    padding: 20px;
+    text-align: center;
+}
+
+.photos{
+    display: flex;
+}
+
+.photos img{
+    width: 23%;
+    padding: 10px;
+}
+
+
+
+/* footer */
+
+.log{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    border: 0.2px orange solid ;
+    padding: 20px;
+}
+
+.log p{
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    line-height: 1.4em;
+    justify-self: center;
+    margin: 10px 0px;
+}
+
+.lo{
+    display: flex;
+    width: 1000px;
+    justify-self: center;
+    /* justify-content: center; */
+}
+
+.lo img{
+    height: 100px;
+    width: 150px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 30px 0px;
+}
+
+li{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    color: #545454;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

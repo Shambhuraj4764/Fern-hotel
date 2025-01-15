@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    padding: 10px;
+    color: white;
+}
+
+.search input{
+    height: 35px;
+    width: 225px;
+    border-radius: 50px;
+}
+
+/* main */
+img{
+    width: 100%;
+}
+
+#head p{
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    color: #212121;
+    padding: 20px;
+}
+
+#crn{
+    display: flex;
+}
+
+#crn img{
+    height: 250px;
+    width: 250px;
+    padding: 10px 100px;
+}
+
+#crn p{
+    display: flex;
+    text-align: center;
+    padding: 30px 20px;
+    line-height: 30px;
+    color: #545454;
+}
+
+#first{
+    width: 80%;
+    height: 700px;
+    display: flex;
+    justify-self: center;
+}
+
+.img img{
+    height: 400px;
+    width: 600px;
+}
+
+.text p{
+    font-size: 20px;
+    color: #334;
+    font-family: "Playfair Display", serif;
+}
+
+.btn button{
+    height: 40px;
+    width: 120px;
+    font-family: "Playfair Display", serif;
+    background-color: #003d15;
+    color: yellow;
+}
+
+.pic1{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.cch{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* footer */
+
+.log{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    border: 0.2px orange solid ;
+    padding: 20px;
+}
+
+.log p{
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    line-height: 1.4em;
+    justify-self: center;
+    margin: 10px 0px;
+}
+
+.lo{
+    display: flex;
+    width: 100%;
+    justify-self: center;
+    /* justify-content: center; */
+}
+
+.lo img{
+    height: 100px;
+    width: 150px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 30px 0px;
+}
+
+li{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    color: #545454;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+/* responsive */
+@media only screen and (max-width:1023px){
+    #first{
+        display: block;
+    }
+    .search input{
+        display: none;
+    }
+}
